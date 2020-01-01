@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D238470123B9C50700C0BFA5 /* SwiftUIViewPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D238470023B9C50700C0BFA5 /* SwiftUIViewPage1.swift */; };
 		D23F088D23B8729800607A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F088C23B8729800607A1E /* AppDelegate.swift */; };
 		D23F088F23B8729800607A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F088E23B8729800607A1E /* SceneDelegate.swift */; };
 		D23F089123B8729800607A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F089023B8729800607A1E /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D238470023B9C50700C0BFA5 /* SwiftUIViewPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewPage1.swift; sourceTree = "<group>"; };
 		D23F088923B8729800607A1E /* demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23F088C23B8729800607A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23F088E23B8729800607A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D23846FF23B9C4B300C0BFA5 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				D238470023B9C50700C0BFA5 /* SwiftUIViewPage1.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
 		D23F088023B8729800607A1E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D23F088B23B8729800607A1E /* demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				D23846FF23B9C4B300C0BFA5 /* pages */,
 				D23F088C23B8729800607A1E /* AppDelegate.swift */,
 				D23F088E23B8729800607A1E /* SceneDelegate.swift */,
 				D23F089023B8729800607A1E /* ContentView.swift */,
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23F088D23B8729800607A1E /* AppDelegate.swift in Sources */,
+				D238470123B9C50700C0BFA5 /* SwiftUIViewPage1.swift in Sources */,
 				D23F088F23B8729800607A1E /* SceneDelegate.swift in Sources */,
 				D23F089123B8729800607A1E /* ContentView.swift in Sources */,
 			);
